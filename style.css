@@ -42,7 +42,7 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
-    transition: background-color .5, color .5s;
+    transition: background-color 1s, color 1s;
 }
 
 .botao_secundario {
@@ -156,5 +156,5 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
-    transition: .5s;
+    transition: 1s;
 }
