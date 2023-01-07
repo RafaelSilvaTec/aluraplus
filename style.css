@@ -4,7 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #c11010;
+    --botao-azul-efeito: #579ef5;
 }
 
 body {
@@ -157,4 +157,36 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
     transition: 1s;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__image {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
 }
